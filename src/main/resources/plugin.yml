@@ -1,0 +1,25 @@
+name: CoreCenterWar
+version: '${project.version}'
+main: me.kiconsen.corecenterwar.CoreCenterWar
+api-version: 1.19
+authors: [ Kiconsen ]
+depend: [PlayerNPC]
+description: Core Tower War
+website: https://www.indiefairystudio.club
+commands:
+  warroom:
+    description: Start A New WARRRRR!!!
+  exitwar:
+    description: Quit A War Room.
+  joinwar:
+    description: Join A War Room.
+    usage: /<command> ROOMID
+  warlist:
+    description: Now Opening War Room.
+  settestnpc:
+    description: Set A Test Npc.
+  quitwar:
+    description: Quit From A Warroom.
+  cooldown:
+    description: Set A CoolDown.
+    usage: /<command> time.
